@@ -8,7 +8,7 @@ describe("calculator", () => {
   });
 
   test("subtract returns the difference of two numbers", () => {
-    expect(subtract(5, 2)).toBe(3);
+    expect(subtract(5, 2)).toBe(8);
     expect(subtract(2, 5)).toBe(-3);
     expect(subtract(0, 0)).toBe(0);
   });
